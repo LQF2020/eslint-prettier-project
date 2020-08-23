@@ -1,0 +1,32 @@
+{
+    "name": "eslint-prettier-project",
+    "version": "1.0.0",
+    "description": "This is a readt-to-code JS project with a pre-installed &amp; configured prettier and eslint set up.",
+    "main": "index.js",
+    "scripts": {
+        "lint": "./node_modules/.bin/eslint --ext .js,.jsx .",
+        "lint:fix": "./node_modules/.bin/eslint --fix --ext .js,.jsx ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LQF2020/eslint-prettier-project.git"
+    },
+    "keywords": [],
+    "author": "QIFU LU",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/LQF2020/eslint-prettier-project/issues"
+    },
+    "homepage": "https://github.com/LQF2020/eslint-prettier-project#readme",
+    "devDependencies": {
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.2.0",
+        "eslint-config-airbnb-base": "^14.2.0",
+        "eslint-config-node": "^4.1.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-import": "^2.21.2",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "prettier": "^2.0.5"
+    }
+}
