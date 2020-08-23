@@ -30,7 +30,7 @@ Eslint all your js files, run the following command:
 npm run lint
 ```
 
-Eslint all your js files with `auto-fix`, run the following command:
+Eslint all your js files with `auto-fix`, which also let `prettier` implement code formatting, run the following command:
 
 ```
 npm run lint:fix
@@ -57,48 +57,48 @@ The extension uses the ESLint library installed in the opened workspace folder. 
 A modules required by eslint to handle ES6 style syntax.
 
 ```
-"babel-eslint": "^10.1.0"
+babel-eslint
 ```
 
 A base dependency to use eslint in project.
 
 ```
-"eslint": "^7.2.0"
+eslint
 ```
 
 A base dependency to use prettify in project.
 
 ```
-"prettier": "^2.0.5"
+prettier
 ```
 
 It helps to embed prettier format-checking rules into eslint syntax-quality checking rules.
 
 ```
-"eslint-config-prettier": "^6.11.0"
+eslint-config-prettier
 ```
 
 With this plugin, eslint is able to use prettier to format all js files When using `eslint --fix`,
 
 ```
-"eslint-plugin-prettier": "^3.1.4"
+eslint-plugin-prettier
 ```
 
-We could use the following depedencies to config eslint to use `Airbnb` base standard. Airbnb also has react plugin supports. For more details, go to [Here](https://www.npmjs.com/package/eslint-config-airbnb).
+We could use the following depedencies to config eslint to use `Airbnb` base standard. Airbnb also has `Reactjs` plugin supports. For more details, go to [Here](https://www.npmjs.com/package/eslint-config-airbnb).
 
 ```
-"eslint-plugin-import": "^2.21.2"
-"eslint-config-airbnb-base": "^14.2.0"
+eslint-plugin-import
+eslint-config-airbnb-base
 ```
 
 Similar purpose as above.
 
 ```
-"eslint-plugin-node": "^11.1.0",
-"eslint-config-node": "^4.1.0",
+eslint-plugin-node
+eslint-config-node
 ```
 
-After running installing all packages,
+After installing all packages,
 make sure your eslint configuration file `.eslintrc.json` has the following:
 
 ```
@@ -109,7 +109,7 @@ make sure your eslint configuration file `.eslintrc.json` has the following:
     },
     "parser": "babel-eslint",
     "rules": {
-		\\ any rules that you might like ,for example:
+  \\ create any rules that you might like ,for example:
         "no-unused-vars": "warn",
         "no-console": "off",
         "func-names": "off",
