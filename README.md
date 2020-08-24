@@ -31,7 +31,13 @@ If not, please install globally:
 npm install -g npx
 ```
 
-Eslint all your js files, run the following command:
+Use prettier to format all your html,css,ts,js files, run the following command:
+
+```
+npm run format
+```
+
+Eslint all your js/jsx files, run the following command:
 
 ```
 npm run lint
