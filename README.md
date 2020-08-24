@@ -25,6 +25,7 @@ This is a ready-to-code empty JS project with prettier and eslint supported.
 ## USAGE
 
 Make sure you have `npx` npm package runner( npx is pre-bundled with npm 5.2.0 ).
+`npx` could locate locally installed package and find the execuetable command for us.
 If not, please install globally:
 
 ```
