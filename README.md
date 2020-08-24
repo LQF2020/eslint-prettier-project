@@ -24,6 +24,13 @@ This is a ready-to-code empty JS project with prettier and eslint supported.
 
 ## USAGE
 
+Make sure you have `npx` npm package runner( npx is pre-bundled with npm 5.2.0 ).
+If not, please install globally:
+
+```
+npm install -g npx
+```
+
 Eslint all your js files, run the following command:
 
 ```
@@ -37,6 +44,7 @@ npm run lint:fix
 ```
 
 > If any files that `NO` need to be eslinted, just put in `.eslintignore` file.
+> If any files that `NO` need to be prettified, just put in `.prettierignore` file.
 
 ---
 
